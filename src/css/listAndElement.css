@@ -1,0 +1,35 @@
+
+
+.listViewer{
+
+    margin-top: 4.5em;
+    margin-bottom: 4.5em;
+
+
+}
+
+.element{
+    background-color: #ececec;
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0.2em .9em 0.2em .9em;
+    padding: 0.1em 0.1em 0.1em 0.1em ;
+}
+
+
+.element img{
+    margin-top: 0em;
+    width: 2.5em;
+
+}
+
+.element span{
+    font-size: 1.5em;
+    padding: 0em 0em 0em .5em;
+    top:0em;
+}
+.element p{
+    width: 90%;
+    margin: .1em .1em .1em 3.5em;
+}
