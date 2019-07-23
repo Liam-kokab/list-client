@@ -2,6 +2,8 @@ import openMenu from './icons/OpenMenu.svg';
 import closeMenu from './icons/closeMenu.svg';
 import notDone from './icons/empty-circle.svg';
 import done from './icons/checkmark.svg';
+import more from './icons/more.svg';
+import plus from './icons/plus.svg'
 
 const config = {
   icons: {
@@ -10,6 +12,8 @@ const config = {
     openMenu: openMenu,
     notDone: notDone,
     done: done,
+    more: more,
+    plus:plus,
 
 
   },

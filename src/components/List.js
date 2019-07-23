@@ -42,6 +42,8 @@ class List extends React.Component {
                detail = {elem.detail}
                key = {elem.name}
                extended = {elem.extended}
+               cratedBy = {elem.cratedBy}
+               doneBy = {elem.doneBy}
                handelExtend = {this.handelExtend}
 
                //handleClick

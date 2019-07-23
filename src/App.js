@@ -3,6 +3,7 @@ import config from './config.js';
 import tempLists from './tempLists.js';
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Menu from './components/Menu';
 import List from './components/List';
 
@@ -32,6 +33,7 @@ class App extends React.Component {
 
         return (
             <div>
+
                 <Header
                     topText = {(this.state.menuIsOpen)?
                         config.getPhrase("menu"): this.getList().name}
@@ -40,18 +42,11 @@ class App extends React.Component {
                 />
 
                 {(this.state.menuIsOpen)?
-                    <Menu
-
-                    />:
-                    <List
-                        list = {this.getList()}
-
-                    />
-
-
+                    <Menu />:
+                    <List list = {this.getList()} />
                 }
 
-
+                <Footer />
 
             </div>
         );

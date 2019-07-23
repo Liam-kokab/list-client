@@ -16,8 +16,6 @@ class Element extends React.Component {
 
     render() {
 
-
-
         return (
             <div className={config.className.element}>
                 {(this.props.done)?
@@ -25,16 +23,22 @@ class Element extends React.Component {
                     <img src={config.icons.notDone} alt="notDone" />
                 }
 
-                <span
+                <span>{this.props.name}</span>
+                <img
+                    alt="show More"
+                    src={config.icons.more}
                     id = {this.props.name}
                     onClick={this.props.handelExtend}
-                >{this.props.name}</span>
-                <p
+                />
+                <div
                     style={{display: this.props.extended ? 'block' : 'none' }}
-                >{this.props.detail}</p>
-
-
-
+                >{this.props.detail}
+                    <p className="small">
+                        <span >added By: {this.props.cratedBy}</span>
+                        {(this.props.done)? <span style={{textAlign:"right"}}
+                        >Done By: {this.props.doneBy}</span> : "" }
+                    </p>
+                </div>
             </div>
         );
     }

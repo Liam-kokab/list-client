@@ -25,11 +25,28 @@
 }
 
 .element span{
-    font-size: 1.5em;
-    padding: 0em 0em 0em .5em;
+    max-width: calc(100% - 4.7em);
+    width: calc(100% - 4.7em);
+    font-size: 1.2em;
+    margin: 0.3em 0em 0em .5em;
+    padding: 0;
     top:0em;
 }
-.element p{
-    width: 90%;
-    margin: .1em .1em .1em 3.5em;
+.element div{
+    width: calc(100% - 6.3em);
+    margin: .1em .1em .1em 3.1em;
+    padding: 0;
+}
+.element .small{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.small span{
+    width: 50%;
+    margin: 0;
+    font-size: .65em;
+
 }
