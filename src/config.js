@@ -13,7 +13,7 @@ const config = {
     notDone: notDone,
     done: done,
     more: more,
-    plus:plus,
+    plus: plus,
 
 
   },
@@ -22,8 +22,8 @@ const config = {
     header: "header",
     listViewer: "listViewer",
     element: "element",
-    elementExtended: "element Extended",
     menu : "menu",
+
 
 
   },
@@ -32,8 +32,10 @@ const config = {
     sportedLang: ["eng"],
     currentLang: "eng",
     langPacks: {
-      "eng": {
-        "menu": "menu",
+      eng: {
+        menu: "Menu",
+        createdBy : "Added by: ",
+        doneBy: "Completed by: ",
 
       }
     },

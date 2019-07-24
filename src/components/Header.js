@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/header.css';
+import '../css/headerAndFooter.css';
 
 import config from '../config.js';
 

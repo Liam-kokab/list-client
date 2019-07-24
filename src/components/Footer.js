@@ -1,12 +1,14 @@
 import React from 'react';
-import config from './config.js';
+import '../css/headerAndFooter.css';
+
+import config from '../config.js';
 
 class Footer extends React.Component {
 
     render() {
 
         return (
-            <div>
+            <div className="footer">
                 <img
                     src={config.icons.plus}
                     alt="Add"

@@ -30,13 +30,13 @@ class Element extends React.Component {
                     id = {this.props.name}
                     onClick={this.props.handelExtend}
                 />
-                <div
+                <div className=""
                     style={{display: this.props.extended ? 'block' : 'none' }}
                 >{this.props.detail}
                     <p className="small">
-                        <span >added By: {this.props.cratedBy}</span>
+                        <span >{config.getPhrase("createdBy")}{this.props.cratedBy}</span>
                         {(this.props.done)? <span style={{textAlign:"right"}}
-                        >Done By: {this.props.doneBy}</span> : "" }
+                        >{config.getPhrase("doneBy")}{this.props.doneBy}</span> : "" }
                     </p>
                 </div>
             </div>

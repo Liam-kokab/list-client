@@ -1,9 +1,9 @@
 
 
 .listViewer{
-
-    margin-top: 4.5em;
-    margin-bottom: 4.5em;
+    border: .1em solid #9b9b9b;
+    padding: 0;
+    margin: 4em .45em 4em .45em;
 
 
 }
@@ -13,8 +13,8 @@
     display: flex;
     flex-wrap: wrap;
 
-    margin: 0.2em .9em 0.2em .9em;
-    padding: 0.1em 0.1em 0.1em 0.1em ;
+    margin: 0.1em;
+    padding: 0.1em;
 }
 
 

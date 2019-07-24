@@ -28,9 +28,9 @@ class List {
 const tempLists = [
 
     new List("test List 1", [
-        new Element("test 1 element 1",true, "this is element 1 for testing! whit long test" ,"Liam", "Emil"),
+        new Element("test 1 element 1",true, "" ,"Liam", "Emil"),
         new Element("test 1 element 2 with long name",false, "this is element 2 for testing!", "Natalie","Liam"),
-        new Element("test 1 element 3",true, "this is element 3 for testing!","Liam", "Natalie"),
+        new Element("test 1 element 3",true, "this is element 3 for testing! this is element 1 for testing! whit long test","Liam", "Natalie"),
         new Element("test 1 element 4",false, "this is element 4 for testing!","Liam", "Natalie"),
         new Element("test 1 element 5",true, "this is element 5 for testing!","Liam","Liam")
   ]),
