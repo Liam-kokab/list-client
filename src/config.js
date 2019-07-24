@@ -1,9 +1,10 @@
-import openMenu from './icons/OpenMenu.svg';
+import openMenu from './icons/openMenu.svg';
 import closeMenu from './icons/closeMenu.svg';
-import notDone from './icons/empty-circle.svg';
+import notDone from './icons/notDone.svg';
 import done from './icons/checkmark.svg';
-import more from './icons/more.svg';
-import plus from './icons/plus.svg'
+import more from './icons/info.svg';
+import plus from './icons/plus.svg';
+import openList from './icons/openList.svg';
 
 const config = {
   icons: {
@@ -14,7 +15,7 @@ const config = {
     done: done,
     more: more,
     plus: plus,
-
+    openList: openList,
 
   },
 
@@ -23,8 +24,6 @@ const config = {
     listViewer: "listViewer",
     element: "element",
     menu : "menu",
-
-
 
   },
 

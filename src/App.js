@@ -50,9 +50,7 @@ class App extends React.Component {
                 {(this.state.menuIsOpen)?
                     <Menu
                         lists = {tempLists}
-                        currentListIndex = {this.currentListIndex}
                         handelChangeList = {this.handelChangeList}
-
                     />:
                     <List list = {this.getList()} />
                 }

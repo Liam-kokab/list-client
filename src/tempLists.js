@@ -49,6 +49,11 @@ const tempLists = [
         new Element("test 3 element 3",true, "this is element 3 for testing!","Liam", "Natalie"),
         new Element("test 3 element 4",true, "this is element 4 for testing!", "Natalie", "Natalie"),
         new Element("test 3 element 5",true, "this is element 5 for testing!","Liam", "Emil")
+    ]),
+    new List("test List 4", [
+        new Element("test 3 element 1",true, "this is element 1 for testing!","Liam", "Natalie"),
+        new Element("test 3 element 2",true, "this is element 2 for testing!", "Natalie", "Natalie"),
+        new Element("test 3 element 3",true, "this is element 3 for testing!","Liam", "Natalie"),
     ])
 ];
 
